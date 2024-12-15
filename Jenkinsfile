@@ -11,7 +11,7 @@ pipeline {
     stages {
         stage('Git Checkout') {
             steps {
-                git branch: 'prod' , url: 'https://github.com/bkrrajmali/aws-cicd-morning.git'
+                git branch: 'main' , url: 'https://github.com/NiraliAmrutiya/aws-cicd.git'
             }
         }
          stage('Versioning') {
